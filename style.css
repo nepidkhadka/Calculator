@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(Images/bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.center {
+position: relative;
+  width: 400px;
+  height: 600px;
+}
+
+.upper-part {
+  height: 40%;
+  background: #091a27;
+  border-radius: 10px;
+}
+
+.upper-part input {
+  height: 100%;
+  width: 100%;
+  /* background: #091a27; */
+  background: #062033;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn {
+  color: white;
+  /* background: #091a27; */
+  background: #062033;
+  height: 100%;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background: #041522;
+  font-size: 1.7rem;
+}
+
+.lower-part {
+  height: 60%;
+  background: #091a27;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
+  grid-auto-rows: minmax(40px, auto);
+}
+
+.bg {
+  background: #3b617e;
+  border-radius: 1px;
+}
+
+.bg:hover {
+  background: #1f3c52;
+}
+
+.btn-equals {
+  grid-row: 4/6;
+  grid-column: 4/5;
+  background: #fbae3c;
+}
+
+.btn-equals:hover {
+  background: #cc8111;
+}
