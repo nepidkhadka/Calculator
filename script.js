@@ -2,15 +2,6 @@ const result = document.querySelector(".upper-part label");
 const cleartbn = document.querySelector("#c");
 const btn = document.querySelectorAll(".btn");
 
-console.log(result);
-console.log(btn);
-
-// cleartbn.addEventListener("click", ()=>{
-//     result.innerText = "";
-// });
-
-
-
 btn.forEach((items)=>{
     items.onclick = () =>{
         if(items.id == "c"){
