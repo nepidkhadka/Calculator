@@ -16,7 +16,6 @@
 }
 
 .center {
-  position: relative;
   width: 400px;
   height: 600px;
 }
@@ -24,8 +23,9 @@
 .upper-part {
   position: relative;
   height: 40%;
-  background: #091a27;
-  border-radius: 10px;
+  /* background: #091a27; */
+  background: #132f45;
+  overflow: hidden;
 }
 
 .upper-part input,.upper-part label {
@@ -34,7 +34,7 @@
   right: 0;
   padding: 0;
   margin: 0 20px 10px 0;
-  background: #091a27;
+  background: #132f45;
   border: none;
   color: white;
   font-size:5rem;
